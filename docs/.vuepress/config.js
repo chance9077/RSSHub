@@ -2,6 +2,7 @@ const { pinyin, PINYIN_STYLE } = require('@napi-rs/pinyin');
 const { slugify: _slugify } = require('@vuepress/shared-utils');
 
 module.exports = {
+    dest: './dist',
     plugins: {
         '@vuepress/google-analytics': {
             ga: 'UA-48084758-10',
